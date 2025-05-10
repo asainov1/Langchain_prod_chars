@@ -33,4 +33,3 @@ docs_and_scores = vectorstore.similarity_search_with_score(query, k=2)
 # Show results
 for doc, score in docs_and_scores:
     print(f"\nFound: {doc.page_content} (Score: {score})")
-print ('good')
