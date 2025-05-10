@@ -7,7 +7,7 @@ from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Load your CSV data (replace with your file if needed)
-df = pd.DataFrame({"text": ["AI transforms industries.", "Python is great for AI.", "LangChain enables LLM apps."]})
+df = pd.DataFrame({"text": ['Alikhan working in',"AI transforms industries.", "Python is great for AI.", "LangChain enables LLM apps."]})
 
 # Convert rows to LangChain Document objects
 docs = [Document(page_content=row["text"]) for _, row in df.iterrows()]
